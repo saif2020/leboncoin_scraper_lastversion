@@ -5,10 +5,10 @@ from  random import randint
 from urllib.request import urlretrieve
 
 ##### set the variable here
-image_storage_path = "D:\\leboncoin_data\\images_Maison_jardinage_test\\"
+image_storage_path = "D:\\leboncoin_data\\images_Maison_bricolage_test\\"
 category = 'Maison'
-sousCategory = 'jardinage'
-link_scrap = ['https://www.leboncoin.fr/jardinage/offres']
+sousCategory = 'bricolage'
+link_scrap = ['https://www.leboncoin.fr/bricolage/offres']
 
 class LeboncoinSpider(scrapy.Spider):
     name = 'leboncoin2'
