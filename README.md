@@ -12,7 +12,7 @@
 - category = 'Maison'
 - sousCategory = 'bricolage'
 - link_scrap = ['https://www.leboncoin.fr/bricolage/offres']
-9. 'scrapy crawl leboncoin2 -o nomDefichier.csv'  (exemple dans notre cas 'scrapy crawl leboncoin2 -o leboncoin_maison_bricolage_test.csv')
+9. 'scrapy crawl leboncoin2 -o nomDeFichier.csv'  (exemple dans notre cas 'scrapy crawl leboncoin2 -o leboncoin_maison_bricolage_test.csv')
 
 # apres pour chaque categorie sous categorie
 1. 'cd leboncoin_scraper_lastversion'
