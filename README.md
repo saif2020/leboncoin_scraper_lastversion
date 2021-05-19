@@ -8,10 +8,10 @@
 6. 'cd leboncoinscraper2'
 7. 'code .' pour ouvrir vscode 
 8. changer les variables dans le fichier leboncoinspider2.py
-image_storage_path = "D:\\leboncoin_data\\images_Maison_bricolage_test\\"
-category = 'Maison'
-sousCategory = 'bricolage'
-link_scrap = ['https://www.leboncoin.fr/bricolage/offres']
+- image_storage_path = "D:\\leboncoin_data\\images_Maison_bricolage_test\\"
+- category = 'Maison'
+- sousCategory = 'bricolage'
+- link_scrap = ['https://www.leboncoin.fr/bricolage/offres']
 9. 'scrapy crawl leboncoin2 -o nomDefichier.csv'  (exemple dans notre cas 'scrapy crawl leboncoin2 -o leboncoin_maison_bricolage_test.csv')
 
 # apres pour chaque categorie sous categorie
